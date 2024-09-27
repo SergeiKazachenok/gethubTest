@@ -1,0 +1,18 @@
+public class Main {
+    public static void main(String[] args) {
+        Musician guitarist = new Musician("John", "Guitarist");
+        Musician drummer = new Musician("Alice", "Drummer");
+        Musician bassist = new Musician("Bob", "Bassist");
+        Musician vocalist = new Musician("Eva", "Vocalist");
+
+        Band myBand = new Band();
+        myBand.addMusician(guitarist);
+        myBand.addMusician(drummer);
+        myBand.addMusician(bassist);
+        myBand.addMusician(vocalist);
+
+        myBand.playMusic();
+    }
+}
+
+
